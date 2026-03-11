@@ -1,3 +1,4 @@
+# 1.
 x = 10
 y = 10.5
 z = "Hello Python"
@@ -17,3 +18,132 @@ print(type(b))
 # Answer: The variable "y" is a float.
 # 3. Which data type is produced by True?
 # Answer: The data type produced by "True is boolean.
+
+# 2.
+# Add the following:
+my_list = [1, 2, 3, 4]
+my_tuple = (5, 6, 7)
+my_set = {"apple", "banana", "cherry"}
+my_dict = {"name": "Ana", "age": 20}
+# Print the type of each variable.
+print(type(my_list))
+print(type(my_tuple))
+print(type(my_set))
+print(type(my_dict))
+
+# 3.
+# Asking for user input
+name = input("Enter your name:")
+# Displaying basic string information
+print("Length:", len(name))
+print("Uppercase:", name.upper())
+print("Lowercase:", name.lower())
+# Print the first and last letter of the name.
+print("First Letter:", name[0])
+print("Last Letter:", name[-1])
+
+# 4. 
+# 1. Asks user for two numbers
+users_Input1 = (input("Enter first number: "))
+users_Input2 = (input("Enter second number: "))
+# 2. Convert them to float
+users_Input1 = float(users_Input1)
+users_Input2 = float(users_Input2)
+# 3. Displays: Sum, Difference, Product, Quotient
+print("Sum: ", users_Input1 + users_Input2)
+print("Difference: ", users_Input1 - users_Input2)
+print("Product: ", users_Input1 * users_Input2)
+print("Quotient: ", users_Input1 / users_Input2)
+
+# 5.
+# Create a program that asks the user for age and determines if they are a minor or adult.
+#Modified by: Peregrino
+age = int(input("Enter age: "))
+is_adult = age >= 18
+
+if is_adult:
+    print("You are an adult")
+else:
+    print("You are a minor")
+
+# 6. 
+# Create a list of 5 favorite foods.
+# List of Favorite FOODS
+foods = ["Adobo", "Sinigang", "Pancit", "Kare-Kare", "Spaghetti"]
+
+# Print the First Item
+print("First item:", foods[0])
+
+# Print the Last Item
+print("Last Item:", foods[-1])
+
+# Add a new food
+foods.append("Kwek-Kwek")
+print("After adding Kwek-Kwek:", foods)
+
+# Remove an item
+foods.remove("Spaghetti")
+print("After removing Spaghetti:", foods)
+
+# 7. 
+# Creating a Tuple
+colors = ('Red', 'Blue', 'Green')
+
+#TASK
+# 1. Print all colors
+print('All colors', colors)
+
+# 2. Print the Second color
+print('Second color', colors[1])
+
+# 3. Try Chaging an item - what happens?
+# colors[1] = 'Yellow'
+# This will give an error because tuples are immutable.
+
+# 8.
+numbers = {1, 2, 2, 3, 4, 4, 5}
+print(numbers)
+# What happened to duplicate values?
+# Answer: Sets automatically remove duplicate values,
+#          keeping unique values. resulting in:
+#          {1, 2, 3, 4, 5}
+numbers.add(10)
+print("After adding 10:", numbers)
+
+# 9. 
+students = {
+    "name": "Kevin Dave O. Peregrino",
+    "age": 19,
+    "course": "BSIT-"
+}
+# TASK:
+# 1. Print the student name
+print(f"Student Name: {students['name']}")
+
+# 2. Add a new key "section"
+students["section"] = "10"
+
+# 3. Change the age
+students["age"] = 19
+
+# 4. Print all keys
+print("Keys:", students.keys())
+
+# 5. Print all values
+print("Values:", students.values())
+
+# 10. 
+x = 5
+y = 2.8
+z = "15"
+
+# Convert
+x_to_float = float(x)
+y_to_int = int(y)
+z_to_int = int(z)
+
+# Print Results.
+print("x to float:", x_to_float)
+print("y to int:", y_to_int)
+print("z to int:", z_to_int)
+
