@@ -1,0 +1,71 @@
+# 1. Int Variables
+num1_int = 26
+num2_int = 4
+
+print("-int Operations-")
+print(f"Addition:       {num1_int} + {num2_int} = {num1_int + num2_int}")
+print(f"Subtraction:    {num1_int} - {num2_int} = {num1_int - num2_int}")
+print(f"Division:       {num1_int} / {num2_int} = {num1_int / num2_int}")
+print(f"Multiplication: {num1_int} * {num2_int} = {num1_int * num2_int}")
+print(f"Modulus:        {num1_int} % {num2_int} = {num1_int % num2_int}")
+print(f"Exponent:       {num1_int} ** {num2_int} = {num1_int ** num2_int}")
+
+# 2. Float Variables
+num1_float = 30.5
+num2_float = 4.5
+
+print("\n-float Operations-")
+print(
+    f"Addition:       {num1_float} + {num2_float} = {num1_float + num2_float}")
+print(
+    f"Subtraction:    {num1_float} - {num2_float} = {num1_float - num2_float}")
+print(
+    f"Division:       {num1_float} / {num2_float} = {num1_float / num2_float}")
+print(
+    f"Multiplication: {num1_float} * {num2_float} = {num1_float * num2_float}")
+print(
+    f"Modulus:        {num1_float} % {num2_float} = {num1_float % num2_float}")
+print(
+    f"Exponent:       {num1_float} ** {num2_float} = {num1_float ** num2_float}")
+
+# 3. Complex Variables
+num1_complex = 5 + 3j
+num2_complex = 2 + 4j
+
+print("\n-complex Operations-")
+print(
+    f"Addition:     {num1_complex} + {num2_complex} = {num1_complex + num2_complex}")
+print(
+    f"Subtraction:  {num1_complex} - {num2_complex} = {num1_complex - num2_complex}")
+print(
+    f"Division:     {num1_complex} / {num2_complex} = {num1_complex / num2_complex}")
+print(
+    f"Multiplication: {num1_complex} * {num2_complex} = {num1_complex * num2_complex}")
+print(
+    f"Modulus:      {num1_complex} % {num2_complex} = Not Supported for Complex Numbers")
+print(
+    f"Exponent:     {num1_complex} ** {num2_complex} = {num1_complex ** num2_complex}")
+# NOTES!!: Modulus is not supported for complex numbers
+
+# 2 Write a program that creates two variables, num1 and num2.
+# Both num1 and num2 should be assigned the integer literal 25000000
+print("\n2. -Integer Literal-")
+# one written with underscores
+num1_25 = 25_000_000
+# one without underscores
+num2_25 = 25000000
+
+# Print num1 and num2 on two separate lines.
+print(f"num1: {num1_25}")
+print(f"num2: {num2_25}")
+
+
+# 3 Creating int,float and complex variable then check the type using the Python Code
+print("\n3. -Variable Types-")
+var_int = 10
+var_float = 3.5
+var_complex = 6 + 4j
+
+print(f"Type of int_var: {type(var_int)}")
+print(f"Type of float_var: {type(var_float)}")
+print(f"Type of complex_var: {type(var_complex)}")
