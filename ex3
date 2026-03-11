@@ -1,0 +1,28 @@
+# Python Comments
+# My first simple script
+print("Hello, I'm Kevin Dave O. Peregrino of BSIT-1O")
+
+# Python Variables
+# a.Create two variables and assign a number and name on it.
+grpname = "F6"
+grpnumber = "5"
+
+# b.Then print both value
+print("Group Name: " + grpname)
+print("Group Number: " + grpnumber)
+
+# Python - Variable Names
+# a. Create 4 variable names using the firstnames of your group members. Your name should not be included.
+mark_joshua = "Member 1"
+john_mark = "Member 2"
+j0hn_chris = "Member 3"
+eliezar = "Member 4"
+jake = "Member 5"
+
+# Many Values to Multiple Variables
+# a. Assign values to multiple variables in one line
+mark_joshua, john_mark, j0hn_chris, eliezar, jake = "Member 1", "Member 2", "Member 3", "Member 4", "Member 5"
+
+# One Value to Multiple Variables
+# a. Assign the same value to multiple variables in one line.
+school = university = campus = "Pateros Technological College"
