@@ -1,0 +1,19 @@
+x = 10
+y = 10.5
+z = "Hello Python"
+a = True
+b = None
+# Print the datatype of each variable using
+# print(type(x))
+print(type(x))
+print(type(y))
+print(type(z))
+print(type(a))
+print(type(b))
+# Guide Questions:
+# 1. Which variable is an integer?
+# Answer: The variable 'x' is an integer.
+# 2. which variable is a float?
+# Answer: The variable "y" is a float.
+# 3. Which data type is produced by True?
+# Answer: The data type produced by "True is boolean.
