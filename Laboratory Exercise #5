@@ -1,0 +1,59 @@
+# 1.
+# A program for you to calculate the length of a string.
+var_string = "GROUP_FIVE_PROGRAMMING"
+print(f"Length of the {var_string} is:")
+print(f"Length: {len(var_string)}")
+
+# 2.
+# A program counts the number of characters in a string.
+var_string = "Kevin_Dave_O._Peregrino"
+print(f"Number of characters {var_string} is:")
+print(f"Number of characters: {len(var_string)}")
+
+# 3.
+# A program to get a string from a given string where all occurrences of its first char have been
+changed to '$', except the first char itself.
+our_word = "restart"
+result = our_word[8] + our_word[1:].replace(our_word[0], '$') 
+print(result)
+
+# 4.
+# A program to get a single string from two to given strings, a separated by a space and swap the first two of each string.
+string_1 = "xxx"
+string_2 = "yyy"
+
+swap_string_1 = string_2[:2] + string_1[2:]
+swap_string_2 = string_1[:2] + string_2[2:]
+
+result = swap_string_1 + " " + swap_string_2
+print(f"Original Strings: {string_1}, {string_2}")
+print(f"Result: {result}")
+
+# 5.
+# # Using + Concatenate Strings in Python using 4 variables concatenate them with spaces.
+first_name "Kevin"
+last_name = "Peregrino"
+age = "19"
+grp = "Group_5"
+
+full_name = first name + " " + last name
+print(f"Full Name: {full_name}")
+print(f"Age: {age}")
+print(f"Group: {grp}")
+
+# 6.
+# Using + Concatenate Strings in Python get two strings from user input and concatenate them.
+string1 = input("Enter the First Name: ")
+string2 = input("Enter the Last Name: ")
+result = string1 + " " + string2
+print(f"Result: {result}")
+
+# 7.
+# Using + Concatenate in Python using your name and your age in a paragraph.
+name = "Kevin Peregrino"
+age = 25
+paragraph = "My name is + name + "\n and I am + str(age) + years old."
+print(paragraph)
+
+
+
