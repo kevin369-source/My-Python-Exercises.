@@ -1,0 +1,30 @@
+# Create a script that run a condition in an if statement,
+# Python returns True or False.
+user_is_active = True
+
+if user_is_active:
+    print("The condition is True!")
+else:
+    print("The condition is False!")
+
+# Create a script that has List, Tuples, Sets and Dictionaries
+# 1. LIST
+my_list = ["list", 18, True]
+
+# 2. TUPLE
+my_tuple = ("tuple", 18, False)
+
+# 3. SET
+my_set = {"set", 18, True}
+
+# 4. DICTIONARY
+my_dict = {
+    "name": "Kevin Peregrino",
+    "age": 18,
+    "is_helpful": True
+}
+# Print Results
+print(f"List: {my_list}")
+print(f"Tuple: {my_tuple}")
+print(f"Set: {my_set}")
+print(f"Dictionary: {my_dict}")
